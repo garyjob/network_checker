@@ -7,6 +7,6 @@
 #   To check if SSL certificate issue is self signed
 #     openssl s_client -connect ldap.dps109.org:636 -showcerts
 #
-host = "208.0.238.46"
+host = "208.1.238.46"
 port = 636
 TCPSocket.new( host, port )
